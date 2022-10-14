@@ -1,0 +1,9 @@
+package ClassAndObj;
+
+public class Customer {
+    String CustomerID;
+    String CustomerName;
+    int CustomerAge;
+    String CustomerGender;
+
+}
