@@ -1,0 +1,124 @@
+package ClassAndObj;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Employee employee1 = new Employee();
+        Employee employee2 = new Employee();
+        Employee employee3 = new Employee();
+
+        employee1.EmployeeID = "Emp-001";
+        employee1.EmployeeName = "Harry";
+        employee1.EmployeeAge = 35;
+        employee1.EmployeeDepartment = "Finance";
+
+        employee2.EmployeeID = "Emp-002";
+        employee2.EmployeeName = "William";
+        employee2.EmployeeAge = 38;
+        employee2.EmployeeDepartment = "HR";
+
+        employee3.EmployeeID = "Emp-003";
+        employee3.EmployeeName = "Cate";
+        employee3.EmployeeAge = 25;
+        employee3.EmployeeDepartment = "IT";
+
+        Customer customer1 = new Customer();
+        Customer customer2 = new Customer();
+        Customer customer3 = new Customer();
+
+        customer1.CustomerID = "Cus-005";
+        customer1.CustomerName = "Chaz";
+        customer1.CustomerAge = 25;
+        customer1.CustomerGender = "Female";
+
+        customer2.CustomerID = "Cus-006";
+        customer2.CustomerName = "Julie";
+        customer2.CustomerAge = 26;
+        customer2.CustomerGender = "Female";
+
+        customer3.CustomerID = "Cus-007";
+        customer3.CustomerName = "Anthony";
+        customer3.CustomerAge = 40;
+        customer3.CustomerGender = "Male";
+
+
+        System.out.println("\nEMPLOYEES");
+        System.out.println("");
+
+        System.out.println("Employee 1:");
+
+            System.out.print("ID: ");
+            System.out.println(employee1.EmployeeID);
+            System.out.print("Name: ");
+            System.out.println(employee1.EmployeeName);
+            System.out.print("Age: ");
+            System.out.println(employee1.EmployeeAge);
+            System.out.print("Department: ");
+            System.out.println(employee1.EmployeeDepartment);
+            System.out.println("");
+
+        System.out.println("Employee 2:");
+
+            System.out.print("ID: ");
+            System.out.println(employee2.EmployeeID);
+            System.out.print("Name: ");
+            System.out.println(employee2.EmployeeName);
+            System.out.print("Age: ");
+            System.out.println(employee2.EmployeeAge);
+            System.out.print("Department: ");
+            System.out.println(employee2.EmployeeDepartment);
+            System.out.println("");
+
+        System.out.println("Employee 3:");
+
+            System.out.print("ID: ");
+            System.out.println(employee3.EmployeeID);
+            System.out.print("Name: ");
+            System.out.println(employee3.EmployeeName);
+            System.out.print("Age: ");
+            System.out.println(employee3.EmployeeAge);
+            System.out.print("Department: ");
+            System.out.println(employee3.EmployeeDepartment);
+            System.out.println("");
+
+        System.out.println("CUSTOMERS");
+        System.out.println("");
+
+        System.out.println("Customer 1:");
+
+            System.out.print("ID: ");
+            System.out.println(customer1.CustomerID);
+            System.out.print("Name: ");
+            System.out.println(customer1.CustomerName);
+            System.out.print("Age: ");
+            System.out.println(customer1.CustomerAge);
+            System.out.print("Gender: ");
+            System.out.println(customer1.CustomerGender);
+            System.out.println("");
+
+        System.out.println("Customer 2:");
+
+            System.out.print("ID: ");
+            System.out.println(customer2.CustomerID);
+            System.out.print("Name: ");
+            System.out.println(customer2.CustomerName);
+            System.out.print("Age: ");
+            System.out.println(customer2.CustomerAge);
+            System.out.print("Gender: ");
+            System.out.println(customer2.CustomerGender);
+            System.out.println("");
+
+        System.out.println("Customer 3:");
+
+            System.out.print("ID: ");
+            System.out.println(customer3.CustomerID);
+            System.out.print("Name: ");
+            System.out.println(customer3.CustomerName);
+            System.out.print("Age: ");
+            System.out.println(customer3.CustomerAge);
+            System.out.print("Gender: ");
+            System.out.println(customer3.CustomerGender);
+            System.out.println("");
+
+    }
+}
