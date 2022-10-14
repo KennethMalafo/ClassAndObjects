@@ -1,0 +1,8 @@
+package ClassAndObj;
+
+public class Employee {
+    String EmployeeID;
+    String EmployeeName;
+    int EmployeeAge;
+    String EmployeeDepartment;
+  }
